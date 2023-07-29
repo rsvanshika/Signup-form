@@ -28,6 +28,7 @@ img{
   width: 100px; 
 }
 .form-container,.profile{
+    background-color: white;
     width:35%;
     height: 70vh;
     margin: auto;
