@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-size: 1rem;
+
+}
+p{
+    color:grey;
+    margin-bottom: .5rem;
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    
+    /* position: relative; */
+
+}
+img{
+    display: block;
+    margin-top: .5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px; 
+}
+.form-container,.profile{
+    width:35%;
+    height: 70vh;
+    margin: auto;
+    border: 2px solid whitesmoke;
+    padding: 2rem;
+    
+     
+   
+}
+
+
+label{
+    margin-top: .5rem;
+}
+    
+input{
+    width: 100%;
+    padding: .5rem .5rem;
+    margin: .5rem 0rem;
+    display: inline-block;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+button{
+    background-color: #625BF7;
+    color: white;
+    padding: 14px 20px;
+    margin: .5rem 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px; 
+}
+
+
+#form-error{
+    margin:1rem;
+    color: #625BF7;
+}
+.question{
+    font-size: .7rem;
+    text-align: center;
+    
+
+}
+.question a{
+    text-decoration: none;
+    color:#625BF7;
+
+}
+#details{
+    margin:0.2rem;
+    padding:2rem 3rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.succes{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top:5rem;
+    color: #625BF7;
+}
+/* --------mobile phone------- */
+
+@media (max-width:768px) {
+   
+        
+    .form-container,.profile{
+        width: 50%;
+      
+
+
+    }
+    #details{
+        margin:0.2rem;
+        padding:2rem 2rem;
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+    
+
+ h1 {
+    font-size:1.5rem;
+    
+ } 
+        
+    
+  }
